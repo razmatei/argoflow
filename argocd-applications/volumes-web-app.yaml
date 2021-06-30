@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/benjamintanweihao/argoflow
-    targetRevision: HEAD
+    repoURL: https://github.com/razmatei/argoflow.git
+    targetRevision: 0.1.1-dev
     path: kubeflow/notebooks/volumes-web-app
     kustomize:
       version: v4.0.5
